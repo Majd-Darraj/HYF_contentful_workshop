@@ -6,4 +6,4 @@ Secondly, you'll want to create a content model for your blog post with the rele
 Once that is complete you can create the HTML/CSS to show your blog post (we included a sample you can use if you want to).
 Lastly - you'll need to connect the HTML template with Contentful to fetch the content and render it. An easy way to achieve this is using javascript.
 
-Follow this guide step by step to complete the exercise: [a link](https://github.com/Majd-Darraj/HYF_contentful_workshop/raw/master/ExerciseGuide.pdf)
+Follow this guide step by step to complete the exercise: [Exercise Guide](https://github.com/Majd-Darraj/HYF_contentful_workshop/raw/master/ExerciseGuide.pdf)
