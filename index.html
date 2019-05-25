@@ -18,12 +18,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!--==== Font-Awesome css file ====-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-    <!--==== Animate CSS ====-->
-    <link rel="stylesheet" href="assets/plugins/animate/animate.min.css" />
     <!--==== Style css file ====-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!--==== Custom css file ====-->
-    <link rel="stylesheet" href="assets/css/custom.css" />
   </head>
   <body>
     <div class="container pb-120">
@@ -49,14 +45,10 @@
                 <!-- Meta -->
                 <ul class="nav meta align-items-center">
                   <li class="meta-author">
-                    <img
-                      src="assets/images/blog/author.jpg"
-                      alt=""
-                      class="img-fluid"
-                    />
-                    <a href="https://medium.com/@markusbergh">Markus Bergh</a>
+                    
+                    <a href="#">John Doe</a>
                   </li>
-                  <li class="meta-date"><a href="#">Mar 30, 2017</a></li>
+                  <li class="meta-date"><a href="#">May 26th, 2019</a></li>
                   <li>6 min read</li>
                 </ul>
               </div>
@@ -66,6 +58,18 @@
 
             <!-- Post Content -->
             <div class="post-content-cover my-drop-cap">
+			<div class="post-my-gallery-images">
+                <div class="row">
+                  <div class="col-md-12">
+                    <img
+                      src="assets/images/cms/cp03.jpg"
+                      alt=""
+                      class="img-fluid"
+					  id="mainImage"
+                    />
+                  </div>
+                </div>
+              </div>
               <div id="mainBody">
               <p>
                 Using static files in JSON format to serve my portfolio with
@@ -74,20 +78,7 @@
                 with a new version for my visitors. This was something I needed
                 to change to be able to move forward faster.
               </p>
-              </div>
-
-              <div class="post-my-gallery-images">
-                <h3>Content type</h3>
-                <div class="row">
-                  <div class="col-md-12">
-                    <img
-                      src="assets/images/cms/cp03.jpg"
-                      alt=""
-                      class="img-fluid"
-                    />
-                  </div>
-                </div>
-              </div>
+			  
 
               <p>
                 When done with creating a space for your project, you will be
@@ -98,20 +89,16 @@
                 and assets for the screenshots.
               </p>
 
-              <blockquote>
-                <p>
-                  All of your content types are grouped under what is called the
-                  content model. A content type is having a limit of 50 fields.
-                </p>
-                <cite>Majd</cite>
-              </blockquote>
-
+              
               <p>
                 Linking content is key for my application since I have subpages
                 of content. With a query parameter, I can get all related
                 content to an entry, which is great when splitting up content in
                 Contentful.
               </p>
+              </div>
+
+              
             </div>
             <!-- End of Post Content -->
           </div>
